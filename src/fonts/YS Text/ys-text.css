@@ -1,0 +1,21 @@
+@font-face {
+  font-display: swap;
+  font-family: YS Text;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('YS Text'),
+    local('YS-Text-Regular'),
+    url('./YS Text-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: YS Text;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local('YS Text Medium'),
+    local('YS-Text-Medium'),
+    url('./YS Text-Medium.ttf') format('truetype');
+}

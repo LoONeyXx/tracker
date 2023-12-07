@@ -1,0 +1,23 @@
+.side-menu
+    display: flex
+    flex-direction: column
+    height: calc(100% - 144px)
+    box-sizing: border-box
+    &__list
+        list-style: none
+        padding: 0
+        margin: 0
+        display: flex
+        gap: 16px
+        flex-direction: column
+        &:first-of-type
+            flex-grow: 1
+        &:last-of-type
+            flex-shrink: 0
+    &__break-line
+        height: 1px
+        background-color: #B5B5B7
+        &:first-of-type
+            margin-bottom: 8px
+        &:last-of-type
+            margin-top: 8px

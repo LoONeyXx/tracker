@@ -1,0 +1,55 @@
+.filter-courses
+    flex-shrink: 0
+    padding: 24px
+    background: #FFF
+    position: fixed
+    box-shadow: 0px 0px 20px -2px rgba(56, 59, 128, 0.25)
+    visibility: hidden
+    height: 100%
+    opacity: 0
+    transition: all .2s linear
+    display: flex
+    flex-direction: column
+    &_open
+        visibility: visible
+        opacity: 1
+        transition: all .2s linear
+    &__close-btn
+        all: unset
+        cursor: pointer
+        align-self: end
+        background-size: cover
+        background-position: center
+        width: 24px
+        height: 24px
+    &__form
+        width: 191px
+        margin: 0
+        box-sizing: border-box
+        padding: 0
+        gap: 8px
+        display: flex
+        flex-direction: column
+        list-style: none
+    &__reset
+        all: unset
+        display: flex
+        align-items: center
+        gap: 4px
+        margin: 12px 0 20px
+        font-size: 14px
+        line-height: 142.857%
+        cursor: pointer
+    &__delete-icon
+        width: 16px
+        height: 16px
+        background-size: cover
+        background-position: center
+        background-repeat: no-repeat
+    &__title
+        margin: 12px 0 24px
+        color: #1A1B22
+        font-family: 'YS Display',Arial, Helvetica, sans-serif
+        font-size: 20px
+        font-weight: 500
+        line-height: 120%
