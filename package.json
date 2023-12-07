@@ -2,6 +2,7 @@
   "name": "development-tracker",
   "private": true,
   "version": "0.0.0",
+  "homepage": "http://mywebsite.com/relativepath",
   "scripts": {
     "dev": "vite",
     "format": "prettier . --write",
