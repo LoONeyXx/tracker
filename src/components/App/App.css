@@ -1,0 +1,40 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: 'YS Text', Arial, Helvetica, sans-serif;
+}
+
+#root {
+  display: flex;
+  max-width: 1440px;
+  /*min-height: 100vh;*/
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.content {
+  display: flex;
+  max-width: 1280px;
+  width: calc(100vw - 160px);
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 160px;
+  overflow-y: auto;
+}
+.content_recommendations {
+  flex-direction: row;
+  position: relative;
+}
+.content_authorization {
+  margin: 0;
+  width: 100%;
+}
