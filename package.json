@@ -2,7 +2,7 @@
   "name": "development-tracker",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/LoONeyXx/tracker",
+  "homepage": "http://LoONeyXx.github.io/tracker",
   "scripts": {
     "dev": "vite",
     "format": "prettier . --write",
