@@ -2,7 +2,7 @@
   "name": "development-tracker",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://mywebsite.com/relativepath",
+  "homepage": "https://github.com/LoONeyXx/tracker",
   "scripts": {
     "dev": "vite",
     "format": "prettier . --write",
