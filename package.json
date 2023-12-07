@@ -2,7 +2,6 @@
   "name": "development-tracker",
   "private": true,
   "version": "0.0.0",
-  "
   "scripts": {
     "dev": "vite",
     "format": "prettier . --write",
